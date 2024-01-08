@@ -1,9 +1,3 @@
-class MultiTaskLoss(nn.Module):
-    def __init__(self, task_num):
-        super(MultiTaskLoss, self).__init__()
-        self.task_num = task_num
-        self.log_vars = nn.Parameter(torch.zeros((task_num)))
-
-    def forward(self, losses):
-        weighted_losses = torch.exp(-self.log_vars) * losses
-        return torch.sum(weighted_losses)
+version https://git-lfs.github.com/spec/v1
+oid sha256:d41274606bb8195cb2150d588cc19c09bc3c5ef0055ad281ec1f89f0b2bfb202
+size 342

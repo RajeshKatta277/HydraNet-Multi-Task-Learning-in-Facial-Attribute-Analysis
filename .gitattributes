@@ -1,2 +1,7 @@
 LICENSE filter=lfs diff=lfs merge=lfs -text
 README.md filter=lfs diff=lfs merge=lfs -text
+model.pth filter=lfs diff=lfs merge=lfs -text
+Multi-Task-Loss.py filter=lfs diff=lfs merge=lfs -text
+multi-task-network-hydranet.ipynb filter=lfs diff=lfs merge=lfs -text
+HydraNet.py filter=lfs diff=lfs merge=lfs -text
+Inference.py filter=lfs diff=lfs merge=lfs -text
